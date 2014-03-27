@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04806D481884CD8700B6C28D /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 04806D471884CD8700B6C28D /* icon.icns */; };
+		048337DC1883E0E80036DA94 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048337DB1883E0E80036DA94 /* DragDropImageView.m */; };
+		048337E51883E1090036DA94 /* NSImage+PPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 048337DE1883E1090036DA94 /* NSImage+PPImage.m */; };
+		048337E61883E1090036DA94 /* PinPingShareSuperImgSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 048337E01883E1090036DA94 /* PinPingShareSuperImgSize.m */; };
+		048337E71883E1090036DA94 /* PinPingWeiBoImgSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 048337E41883E1090036DA94 /* PinPingWeiBoImgSize.m */; };
+		048337E91883FC640036DA94 /* share.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048337E81883FC640036DA94 /* share.plist */; };
+		0487D84918812EE9005E05D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0487D84818812EE9005E05D6 /* Cocoa.framework */; };
+		0487D85318812EE9005E05D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0487D85118812EE9005E05D6 /* InfoPlist.strings */; };
+		0487D85518812EE9005E05D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D85418812EE9005E05D6 /* main.m */; };
+		0487D85918812EE9005E05D6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0487D85718812EE9005E05D6 /* Credits.rtf */; };
+		0487D85C18812EE9005E05D6 /* PinPingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D85B18812EE9005E05D6 /* PinPingAppDelegate.m */; };
+		0487D85F18812EE9005E05D6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0487D85D18812EE9005E05D6 /* MainMenu.xib */; };
+		0487D86118812EE9005E05D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0487D86018812EE9005E05D6 /* Images.xcassets */; };
+		0487D86818812EE9005E05D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0487D86718812EE9005E05D6 /* XCTest.framework */; };
+		0487D86918812EE9005E05D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0487D84818812EE9005E05D6 /* Cocoa.framework */; };
+		0487D87118812EE9005E05D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0487D86F18812EE9005E05D6 /* InfoPlist.strings */; };
+		0487D87318812EE9005E05D6 /* ShareIamgeToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D87218812EE9005E05D6 /* ShareIamgeToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0487D86A18812EE9005E05D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0487D83D18812EE9005E05D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0487D84418812EE9005E05D6;
+			remoteInfo = ShareIamgeTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04806D471884CD8700B6C28D /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		048337DA1883E0E80036DA94 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
+		048337DB1883E0E80036DA94 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		048337DD1883E1090036DA94 /* NSImage+PPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+PPImage.h"; sourceTree = "<group>"; };
+		048337DE1883E1090036DA94 /* NSImage+PPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+PPImage.m"; sourceTree = "<group>"; };
+		048337DF1883E1090036DA94 /* PinPingShareSuperImgSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPingShareSuperImgSize.h; sourceTree = "<group>"; };
+		048337E01883E1090036DA94 /* PinPingShareSuperImgSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPingShareSuperImgSize.m; sourceTree = "<group>"; };
+		048337E11883E1090036DA94 /* ShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareHeader.h; sourceTree = "<group>"; };
+		048337E31883E1090036DA94 /* PinPingWeiBoImgSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPingWeiBoImgSize.h; sourceTree = "<group>"; };
+		048337E41883E1090036DA94 /* PinPingWeiBoImgSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPingWeiBoImgSize.m; sourceTree = "<group>"; };
+		048337E81883FC640036DA94 /* share.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = share.plist; sourceTree = "<group>"; };
+		0487D84518812EE9005E05D6 /* ShareImageTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareImageTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487D84818812EE9005E05D6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0487D84B18812EE9005E05D6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0487D84C18812EE9005E05D6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0487D84D18812EE9005E05D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0487D85018812EE9005E05D6 /* ShareIamgeTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareIamgeTools-Info.plist"; sourceTree = "<group>"; };
+		0487D85218812EE9005E05D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0487D85418812EE9005E05D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0487D85618812EE9005E05D6 /* ShareIamgeTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareIamgeTools-Prefix.pch"; sourceTree = "<group>"; };
+		0487D85818812EE9005E05D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0487D85A18812EE9005E05D6 /* PinPingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinPingAppDelegate.h; sourceTree = "<group>"; };
+		0487D85B18812EE9005E05D6 /* PinPingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinPingAppDelegate.m; sourceTree = "<group>"; };
+		0487D85E18812EE9005E05D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0487D86018812EE9005E05D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0487D86618812EE9005E05D6 /* ShareIamgeToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareIamgeToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487D86718812EE9005E05D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0487D86E18812EE9005E05D6 /* ShareIamgeToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareIamgeToolsTests-Info.plist"; sourceTree = "<group>"; };
+		0487D87018812EE9005E05D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0487D87218812EE9005E05D6 /* ShareIamgeToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareIamgeToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0487D84218812EE9005E05D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487D84918812EE9005E05D6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0487D86318812EE9005E05D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487D86918812EE9005E05D6 /* Cocoa.framework in Frameworks */,
+				0487D86818812EE9005E05D6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048337E21883E1090036DA94 /* ShareImgSize */ = {
+			isa = PBXGroup;
+			children = (
+				048337E31883E1090036DA94 /* PinPingWeiBoImgSize.h */,
+				048337E41883E1090036DA94 /* PinPingWeiBoImgSize.m */,
+			);
+			path = ShareImgSize;
+			sourceTree = "<group>";
+		};
+		0487D83C18812EE9005E05D6 = {
+			isa = PBXGroup;
+			children = (
+				04806D471884CD8700B6C28D /* icon.icns */,
+				0487D84E18812EE9005E05D6 /* ShareIamgeTools */,
+				0487D86C18812EE9005E05D6 /* ShareIamgeToolsTests */,
+				0487D84718812EE9005E05D6 /* Frameworks */,
+				0487D84618812EE9005E05D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0487D84618812EE9005E05D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0487D84518812EE9005E05D6 /* ShareImageTools.app */,
+				0487D86618812EE9005E05D6 /* ShareIamgeToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0487D84718812EE9005E05D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0487D84818812EE9005E05D6 /* Cocoa.framework */,
+				0487D86718812EE9005E05D6 /* XCTest.framework */,
+				0487D84A18812EE9005E05D6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0487D84A18812EE9005E05D6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0487D84B18812EE9005E05D6 /* AppKit.framework */,
+				0487D84C18812EE9005E05D6 /* CoreData.framework */,
+				0487D84D18812EE9005E05D6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0487D84E18812EE9005E05D6 /* ShareIamgeTools */ = {
+			isa = PBXGroup;
+			children = (
+				048337DD1883E1090036DA94 /* NSImage+PPImage.h */,
+				048337DE1883E1090036DA94 /* NSImage+PPImage.m */,
+				048337DF1883E1090036DA94 /* PinPingShareSuperImgSize.h */,
+				048337E01883E1090036DA94 /* PinPingShareSuperImgSize.m */,
+				048337E11883E1090036DA94 /* ShareHeader.h */,
+				048337E21883E1090036DA94 /* ShareImgSize */,
+				048337DA1883E0E80036DA94 /* DragDropImageView.h */,
+				048337DB1883E0E80036DA94 /* DragDropImageView.m */,
+				0487D85A18812EE9005E05D6 /* PinPingAppDelegate.h */,
+				0487D85B18812EE9005E05D6 /* PinPingAppDelegate.m */,
+				0487D85D18812EE9005E05D6 /* MainMenu.xib */,
+				0487D86018812EE9005E05D6 /* Images.xcassets */,
+				0487D84F18812EE9005E05D6 /* Supporting Files */,
+			);
+			path = ShareIamgeTools;
+			sourceTree = "<group>";
+		};
+		0487D84F18812EE9005E05D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048337E81883FC640036DA94 /* share.plist */,
+				0487D85018812EE9005E05D6 /* ShareIamgeTools-Info.plist */,
+				0487D85118812EE9005E05D6 /* InfoPlist.strings */,
+				0487D85418812EE9005E05D6 /* main.m */,
+				0487D85618812EE9005E05D6 /* ShareIamgeTools-Prefix.pch */,
+				0487D85718812EE9005E05D6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0487D86C18812EE9005E05D6 /* ShareIamgeToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0487D87218812EE9005E05D6 /* ShareIamgeToolsTests.m */,
+				0487D86D18812EE9005E05D6 /* Supporting Files */,
+			);
+			path = ShareIamgeToolsTests;
+			sourceTree = "<group>";
+		};
+		0487D86D18812EE9005E05D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0487D86E18812EE9005E05D6 /* ShareIamgeToolsTests-Info.plist */,
+				0487D86F18812EE9005E05D6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0487D84418812EE9005E05D6 /* ShareImageTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0487D87618812EE9005E05D6 /* Build configuration list for PBXNativeTarget "ShareImageTools" */;
+			buildPhases = (
+				0487D84118812EE9005E05D6 /* Sources */,
+				0487D84218812EE9005E05D6 /* Frameworks */,
+				0487D84318812EE9005E05D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareImageTools;
+			productName = ShareIamgeTools;
+			productReference = 0487D84518812EE9005E05D6 /* ShareImageTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0487D86518812EE9005E05D6 /* ShareIamgeToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0487D87918812EE9005E05D6 /* Build configuration list for PBXNativeTarget "ShareIamgeToolsTests" */;
+			buildPhases = (
+				0487D86218812EE9005E05D6 /* Sources */,
+				0487D86318812EE9005E05D6 /* Frameworks */,
+				0487D86418812EE9005E05D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0487D86B18812EE9005E05D6 /* PBXTargetDependency */,
+			);
+			name = ShareIamgeToolsTests;
+			productName = ShareIamgeToolsTests;
+			productReference = 0487D86618812EE9005E05D6 /* ShareIamgeToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0487D83D18812EE9005E05D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PinPing;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = PinPing;
+				TargetAttributes = {
+					0487D86518812EE9005E05D6 = {
+						TestTargetID = 0487D84418812EE9005E05D6;
+					};
+				};
+			};
+			buildConfigurationList = 0487D84018812EE9005E05D6 /* Build configuration list for PBXProject "ShareIamgeTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0487D83C18812EE9005E05D6;
+			productRefGroup = 0487D84618812EE9005E05D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0487D84418812EE9005E05D6 /* ShareImageTools */,
+				0487D86518812EE9005E05D6 /* ShareIamgeToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0487D84318812EE9005E05D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487D85318812EE9005E05D6 /* InfoPlist.strings in Resources */,
+				0487D86118812EE9005E05D6 /* Images.xcassets in Resources */,
+				0487D85918812EE9005E05D6 /* Credits.rtf in Resources */,
+				0487D85F18812EE9005E05D6 /* MainMenu.xib in Resources */,
+				048337E91883FC640036DA94 /* share.plist in Resources */,
+				04806D481884CD8700B6C28D /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0487D86418812EE9005E05D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487D87118812EE9005E05D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0487D84118812EE9005E05D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048337E61883E1090036DA94 /* PinPingShareSuperImgSize.m in Sources */,
+				0487D85C18812EE9005E05D6 /* PinPingAppDelegate.m in Sources */,
+				0487D85518812EE9005E05D6 /* main.m in Sources */,
+				048337E71883E1090036DA94 /* PinPingWeiBoImgSize.m in Sources */,
+				048337E51883E1090036DA94 /* NSImage+PPImage.m in Sources */,
+				048337DC1883E0E80036DA94 /* DragDropImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0487D86218812EE9005E05D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487D87318812EE9005E05D6 /* ShareIamgeToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0487D86B18812EE9005E05D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0487D84418812EE9005E05D6 /* ShareImageTools */;
+			targetProxy = 0487D86A18812EE9005E05D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0487D85118812EE9005E05D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0487D85218812EE9005E05D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0487D85718812EE9005E05D6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0487D85818812EE9005E05D6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0487D85D18812EE9005E05D6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0487D85E18812EE9005E05D6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0487D86F18812EE9005E05D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0487D87018812EE9005E05D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0487D87418812EE9005E05D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0487D87518812EE9005E05D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0487D87718812EE9005E05D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareIamgeTools/ShareIamgeTools-Prefix.pch";
+				INFOPLIST_FILE = "ShareIamgeTools/ShareIamgeTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0487D87818812EE9005E05D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareIamgeTools/ShareIamgeTools-Prefix.pch";
+				INFOPLIST_FILE = "ShareIamgeTools/ShareIamgeTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0487D87A18812EE9005E05D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareIamgeTools.app/Contents/MacOS/ShareIamgeTools";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareIamgeTools/ShareIamgeTools-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareIamgeToolsTests/ShareIamgeToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0487D87B18812EE9005E05D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareIamgeTools.app/Contents/MacOS/ShareIamgeTools";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareIamgeTools/ShareIamgeTools-Prefix.pch";
+				INFOPLIST_FILE = "ShareIamgeToolsTests/ShareIamgeToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0487D84018812EE9005E05D6 /* Build configuration list for PBXProject "ShareIamgeTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0487D87418812EE9005E05D6 /* Debug */,
+				0487D87518812EE9005E05D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0487D87618812EE9005E05D6 /* Build configuration list for PBXNativeTarget "ShareImageTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0487D87718812EE9005E05D6 /* Debug */,
+				0487D87818812EE9005E05D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0487D87918812EE9005E05D6 /* Build configuration list for PBXNativeTarget "ShareIamgeToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0487D87A18812EE9005E05D6 /* Debug */,
+				0487D87B18812EE9005E05D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0487D83D18812EE9005E05D6 /* Project object */;
+}
